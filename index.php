@@ -10,7 +10,6 @@
 		<nav class = "navbar navbar-inverse navbar-fixed-top">
 			<div class = "container-fluid">
 				<div class = "navbar-header">
-					<img src = "admin/images/logo.png" width = "200px" height = "50px"/>
 					<p class = "navbar-text pull-right">Simple Attendance Record System</p>
 				</div>
 			</div>
@@ -33,7 +32,7 @@
 				<form enctype = "multipart/form-data" id="loginFrm" method="POST">
 					<div class = "form-group">
 						<label>Student ID:</label>
-						<input type = "text" id = "student" class = "form-control" required = "required"/>
+						<input type = "number" id = "student" class = "form-control" required = "required"/>
 						<br />
 						<br />
 						<div id = "error"></div>
