@@ -6,7 +6,8 @@
 		<meta name = "viewport" content = "width=device-width, initial-scale=1" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css"/>
 	</head>
-	<body class = "alert-info">
+	
+	<body class = "alert-info", style="background-color:white;">
 		<nav class = "navbar navbar-inverse navbar-fixed-top">
 			<div class = "container-fluid">
 				<div class = "navbar-header">
@@ -41,6 +42,11 @@
 					</div>
 				</form>
 			</div>
+		</div>
+		<div class = "navbar navbar-fixed-bottom alert-warning">
+			<div class = "container-fluid"; style="text-align:right; padding-top: 10px;">
+			<a href="http://localhost/Simple-Attendance-Record-System/admin/index.php">Login Admin</a>
+			</div>	
 		</div>
 	</body>
 	<script src = "js/jquery.js"></script>

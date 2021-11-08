@@ -30,8 +30,8 @@
 						<div class = "panel-heading">
 							<h4>Admin Login</h4>
 						</div>
-						<div class = "panel-body">
-							<form enctype = "multipart/form-data">
+						<div class = "panel-body"; style="background-color:#f5f5f5;">
+							<form enctype = "multipart/form-data"; style="background-color:#f5f5f5;">
 								<div id = "username_warning" class = "form-group">
 									<label class = "control-label">Username:</label>
 									<input type = "text" id = "username" class = "form-control" />
@@ -42,7 +42,7 @@
 								</div>
 								<div id = "result"></div>
 								<br />
-								<button type = "button" class = "btn btn-primary btn-block" id = "login_admin"><span class = "glyphicon glyphicon-save"></span> Login</button>
+								<button type = "button" class = "btn btn-primary btn-block" id = "login_admin">Login</button>
 							</form>
 						</div>
 					</div>
@@ -50,7 +50,8 @@
 			</div>
 		</div>
 		<div class = "navbar navbar-fixed-bottom alert-warning">
-			<div class = "container-fluid">
+			<div class = "container-fluid"; style="text-align:right; padding-top: 10px;">
+			<a href="http://localhost/Simple-Attendance-Record-System/index.php">Login Student</a>
 			</div>	
 		</div>
 	</body>

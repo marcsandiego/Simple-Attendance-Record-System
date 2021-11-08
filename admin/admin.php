@@ -17,27 +17,16 @@
 				<div class = "navbar-header">
 					<p class = "navbar-text pull-right">Simple Attendance Record System</p>
 				</div>
-				<ul class = "nav navbar-nav navbar-right">
-					<li class = "dropdown">
-						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"><i class = "glyphicon glyphicon-user"></i> <?php echo htmlentities($admin_name)?> <b class = "caret"></b></a>
-						<ul class = "dropdown-menu">
-							<li><a href = "logout.php"><i class = "glyphicon glyphicon-off"></i> Logout</a></li>
-						</ul>
-					</li>
-				</ul>
+				
 			</div>
 		</nav>
 		<div class = "container-fluid" style = "margin-top:70px;">
 			<ul class = "nav nav-pills">
-				<li><a href = "home.php"><span class = "glyphicon glyphicon-home"></span> Home</a></li>
-				<li class = "dropdown active">
-					<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#"><span class = "glyphicon glyphicon-cog"></span> Accounts <span class = "caret"></span></a>
-					<ul class = "dropdown-menu">
-						<li><a href = "admin.php"><span class = "glyphicon glyphicon-user"></span> Admin</a></li>
-						<li><a href = "student.php"><span class = "glyphicon glyphicon-user"></span> Student</a></li>
-					</ul>
-				</li>
-				<li><a href = "record.php"><span class = "glyphicon glyphicon-book"></span> Record</a></li>
+				<li><a href = "home.php">Home</a></li>
+				<li class = "active"><a href = "admin.php">Admin</a></li>
+				<li><a href = "student.php">Student</a></li>
+				<li><a href = "record.php">Record</a></li>
+				<li><a href = "logout.php"><i></i>Logout</a></li>
 			</ul>
 			<br />
 			<div class = "modal fade" id = "myModal" tabindex = "-1" role = "dialog" aria-labelledby = "myModallabel">
@@ -71,7 +60,7 @@
 								</div>
 							</div>
 							<div class = "modal-footer">
-								<button  class = "btn btn-primary" name = "save"><span class = "glyphicon glyphicon-save"></span> Save</button>
+								<button  class = "btn btn-primary" name = "save">Save</button>
 							</div>
 						</form>
 					</div>
@@ -83,7 +72,7 @@
 						<div class = "modal-body">
 							<center><label class = "text-danger">Are you sure you want to delete this record?</label></center>
 							<br />
-							<center><a class = "btn btn-danger remove_id" ><span class = "glyphicon glyphicon-trash"></span> Yes</a> <button type = "button" class = "btn btn-warning" data-dismiss = "modal" aria-label = "No"><span class = "glyphicon glyphicon-remove"></span> No</button></center>
+							<center><a class = "btn btn-danger remove_id" >Yes</a> <button type = "button" class = "btn btn-warning" data-dismiss = "modal" aria-label = "No"><span class = "glyphicon glyphicon-remove"></span> No</button></center>
 						</div>
 					</div>
 				</div>
@@ -101,7 +90,7 @@
 			</div>
 			<div class = "alert alert-info">Accounts / Admin</div>
 			<div class = "well col-lg-12">
-				<button type = "button" class = "btn btn-success" data-target = "#myModal" data-toggle = "modal"><span class = "glyphicon glyphicon-plus"></span> Add new</button>
+				<button type = "button" class = "btn btn-success" data-target = "#myModal" data-toggle = "modal">Add new</button>
 				<br />
 				<br />
 				<table id = "table" class = "table table-bordered">

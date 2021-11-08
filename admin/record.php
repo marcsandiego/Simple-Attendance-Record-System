@@ -17,27 +17,16 @@
 				<div class = "navbar-header">
 					<p class = "navbar-text pull-right">Simple Attendance Record System</p>
 				</div>
-				<ul class = "nav navbar-nav navbar-right">
-					<li class = "dropdown">
-						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"><i class = "glyphicon glyphicon-user"></i> <?php echo htmlentities($admin_name)?> <b class = "caret"></b></a>
-						<ul class = "dropdown-menu">
-							<li><a href = "logout.php"><i class = "glyphicon glyphicon-off"></i> Logout</a></li>
-						</ul>
-					</li>
-				</ul>
+				
 			</div>
 		</nav>
 		<div class = "container-fluid" style = "margin-top:70px;">
 			<ul class = "nav nav-pills">
-				<li><a href = "home.php"><span class = "glyphicon glyphicon-home"></span> Home</a></li>
-				<li class = "dropdown">
-					<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#"><span class = "glyphicon glyphicon-cog"></span> Accounts <span class = "caret"></span></a>
-					<ul class = "dropdown-menu">
-						<li><a href = "admin.php"><span class = "glyphicon glyphicon-user"></span> Admin</a></li>
-						<li><a href = "student.php"><span class = "glyphicon glyphicon-user"></span> Student</a></li>
-					</ul>
-				</li>
-				<li class = "active"><a href = "record.php"><span class = "glyphicon glyphicon-book"></span> Record</a></li>
+				<li><a href = "home.php">Home</a></li>
+				<li><a href = "admin.php">Admin</a></li>
+				<li><a href = "student.php">Student</a></li>
+				<li class = "active"><a href = "record.php">Record</a></li>
+				<li><a href = "logout.php"><i></i>Logout</a></li>
 			</ul>
 			<br />
 			<div class = "alert alert-info">Record</div>
