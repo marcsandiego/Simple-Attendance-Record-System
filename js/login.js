@@ -22,7 +22,7 @@ $(document).ready(function(){
 								student: $student
 							},
 							success: function(result){
-								$result = $('<h2 class = "text-warning">You have been login:</h2>' + result).appendTo('#result');
+								$result = $('<h2>You have been login:</h2>' + result).appendTo('#result');
 								$('#student').val('');
 								setTimeout(function(){
 									$result.remove();

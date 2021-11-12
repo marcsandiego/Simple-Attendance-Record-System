@@ -1334,9 +1334,7 @@ mark,
 .text-capitalize {
   text-transform: capitalize;
 }
-.text-muted {
-  color: #777;
-}
+
 .text-primary {
   color: #337ab7;
 }
@@ -1352,7 +1350,7 @@ a.text-success:focus {
   color: #2b542c;
 }
 .text-info {
-  color: #31708f;
+  color: #000000;
 }
 a.text-info:hover,
 a.text-info:focus {

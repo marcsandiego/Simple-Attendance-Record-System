@@ -98,7 +98,7 @@
 				<br />
 				<br />
 				<table id = "table" class = "table table-bordered">
-					<thead class = "alert-info">
+					<thead  style="background-color:white">
 						<tr>
 							<th>Student ID</th>
 							<th>Firstname</th>
@@ -121,7 +121,7 @@
 							<td><?php echo $f_student['lastname']?></td>
 							<td><?php echo $f_student['course']?></td>
 							<td><?php echo $f_student['section']?></td>
-							<td><a class = "btn btn-danger rstudent_id" name = "<?php echo $f_student['student_id']?>" href = "#" data-toggle = "modal" data-target = "#delete"><span class = "glyphicon glyphicon-remove"></span></a> <a class = "btn btn-warning  estudent_id" name = "<?php echo $f_student['student_id']?>" href = "#" data-toggle = "modal" data-target = "#edit_student"><span class = "glyphicon glyphicon-edit"></span></a></td>
+							<td><a class = "btn btn-danger rstudent_id" name = "<?php echo $f_student['student_id']?>" href = "#" data-toggle = "modal" data-target = "#delete">X</a> <a class = "btn btn-warning  estudent_id" name = "<?php echo $f_student['student_id']?>" href = "#" data-toggle = "modal" data-target = "#edit_student">Edit</a></td>
 						</tr>
 						<?php
 							}

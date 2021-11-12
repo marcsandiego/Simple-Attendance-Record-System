@@ -32,7 +32,7 @@
 				<br />
 				<form enctype = "multipart/form-data" id="loginFrm" method="POST">
 					<div class = "form-group">
-						<label>Student ID:</label>
+						<label>Student No.:</label>
 						<input type = "number" id = "student" class = "form-control" required = "required"/>
 						<br />
 						<br />

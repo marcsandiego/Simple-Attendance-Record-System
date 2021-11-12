@@ -94,8 +94,8 @@
 				<br />
 				<br />
 				<table id = "table" class = "table table-bordered">
-					<thead>
-						<tr class = "alert-info">
+					<thead style="background-color:white">
+						<tr>
 							<th>Username</th>
 							<th>Password</th>
 							<th>Firstname</th>
@@ -111,11 +111,11 @@
 					?>	
 						<tr>
 							<td><?php echo $f_admin['username']?></td>
-							<td><?php echo md5($f_admin['password'])?></td>
+							<td><?php echo $f_admin['password']?></td>
 							<td><?php echo $f_admin['firstname']?></td>
 							<td><?php echo $f_admin['middlename']?></td>
 							<td><?php echo htmlentities($f_admin['lastname'])?></td>
-							<td><a class = "btn btn-danger radmin_id" name = "<?php echo $f_admin['admin_id']?>" href = "#" data-toggle = "modal" data-target = "#delete"><span class = "glyphicon glyphicon-remove"></span></a> <a class = "btn btn-warning  eadmin_id" name = "<?php echo $f_admin['admin_id']?>" href = "#" data-toggle = "modal" data-target = "#edit_admin"><span class = "glyphicon glyphicon-edit"></span></a></td>
+							<td><a class = "btn btn-danger radmin_id" name = "<?php echo $f_admin['admin_id']?>" href = "#" data-toggle = "modal" data-target = "#delete">X</a> <a class = "btn btn-warning  eadmin_id" name = "<?php echo $f_admin['admin_id']?>" href = "#" data-toggle = "modal" data-target = "#edit_admin">Edit</a></td>
 						</tr>
 					<?php
 						}

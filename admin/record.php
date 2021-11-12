@@ -43,7 +43,7 @@
 			</div>
 			<div class = "well col-lg-12">
 				<table id = "table" class = "table table-bordered">
-					<thead class = "alert-info">
+					<thead style="background-color:white">
 						<tr>
 							<th>Student ID</th>
 							<th>Student Name</th>
@@ -61,9 +61,9 @@
 						<tr>
 							<td><?php echo $f_time['student_no']?></td>
 							<td><?php echo htmlentities($f_time['student_name'])?></td>
-							<td><?php echo date("h:i a", strtotime($f_time['time']))?></td>
-							<td><?php echo date("m-d-Y", strtotime($f_time['date']))?></td>
-							<td><button name = "<?php echo $f_time['time_id']?>" class = "btn btn-danger rtime_id" href = "#" data-toggle = "modal" data-target = "#delete"><span class = "glyphicon glyphicon-remove"></span></button></td>
+							<td><?php echo date("h:i", strtotime($f_time['time']))?></td>
+							<td><?php echo date("Y-m-d", strtotime($f_time['date']))?></td>
+							<td><button name = "<?php echo $f_time['time_id']?>" class = "btn btn-danger rtime_id" href = "#" data-toggle = "modal" data-target = "#delete">X</button></td>
 						</tr>
 					<?php
 						}
